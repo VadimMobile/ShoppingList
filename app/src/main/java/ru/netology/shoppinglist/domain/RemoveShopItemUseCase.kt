@@ -2,7 +2,7 @@ package ru.netology.shoppinglist.domain
 
 class RemoveShopItemUseCase {
 
-    fun removeShopItemUseCase(shopItem: ShopItem){
+    fun removeShopItem(shopItem: ShopItem){
         TODO()
     }
 }

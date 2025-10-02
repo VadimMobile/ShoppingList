@@ -2,7 +2,7 @@ package ru.netology.shoppinglist.domain
 
 class AddShopItemUseCase {
 
-    fun addShopItemUseCase(shopItem: ShopItem){
+    fun addShopItem(shopItem: ShopItem){
         TODO()
     }
 }

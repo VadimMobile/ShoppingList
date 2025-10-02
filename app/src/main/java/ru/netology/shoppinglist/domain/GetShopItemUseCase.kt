@@ -2,7 +2,7 @@ package ru.netology.shoppinglist.domain
 
 class GetShopItemUseCase {
 
-    fun getShopListForId(shopItem: Int): ShopItem{
+    fun getShopList(shopItem: Int): ShopItem{
         TODO()
     }
 }
