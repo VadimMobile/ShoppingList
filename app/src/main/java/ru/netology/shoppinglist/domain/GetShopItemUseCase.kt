@@ -1,8 +1,8 @@
 package ru.netology.shoppinglist.domain
 
-class GetShopItemUseCase {
+class GetShopItemUseCase(private val shopListRepository: ShopListRepository) {
 
-    fun getShopListForId(shopItem: Int): ShopItem{
-        TODO()
+    fun getShopItemForId(shopItemId: Int): ShopItem{
+        return shopListRepository.getShopItemForId(shopItemId)
     }
 }

@@ -1,8 +1,8 @@
 package ru.netology.shoppinglist.domain
 
-class AddShopItemUseCase {
+class AddShopItemUseCase(private val shopListRepository: ShopListRepository) {
 
-    fun addShopItemUseCase(shopItem: ShopItem){
-        TODO()
+    fun addShopItem(shopItem: ShopItem){
+        shopListRepository.addShopItem(shopItem)
     }
 }

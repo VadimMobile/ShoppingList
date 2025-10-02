@@ -1,8 +1,8 @@
 package ru.netology.shoppinglist.domain
 
-class RemoveShopItemUseCase {
+class RemoveShopItemUseCase(private val shopListRepository: ShopListRepository) {
 
-    fun removeShopItemUseCase(shopItem: ShopItem){
-        TODO()
+    fun removeShopItem(shopItem: ShopItem){
+        shopListRepository.removeShopItem(shopItem)
     }
 }
